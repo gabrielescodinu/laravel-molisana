@@ -1,0 +1,86 @@
+html,
+body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  background-image: url(/images/fondo-pag-speciali.jpg?06a79f19fbb4489a17e2dff67ce37137);
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 84px;
+}
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.links > a:hover {
+  color: lightgrey;
+  transition: 0.2s;
+}
+
+.links {
+  margin-bottom: 30px;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+.prodotti {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.prodotti h1 {
+  width: 100%;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.prodotto:hover {
+  filter: grayscale(100%);
+  transition: 0.2s;
+}
+
+.prodotti a {
+  margin: 20px;
+}
+
+img {
+  max-height: 250px;
+}
+
