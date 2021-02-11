@@ -15,11 +15,12 @@
             <div class="title m-b-md">
                 <img src="{{ asset('../img/logo.png') }}" alt="">
             </div>
-
-            <div class="links">
-                <a href="/">Home</a>
-                <a href="prodotti">Prodotti</a>
-                <a href="contatti">Contatti</a>
+            <div class="link-container">
+                <div class="links">
+                    <a href="/">Home</a>
+                    <a href="prodotti">Prodotti</a>
+                    <a href="contatti">Contatti</a>
+                </div>
             </div>
         </div>
     </div>

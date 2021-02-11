@@ -145,5 +145,21 @@ Route::get('/prodotti', function () {
         }
     ]';
     $prodottiConvertito = json_decode($prodotti, true);
-    return view('prodotti', compact('prodottiConvertito'));
+
+    $lunghe = [];
+    $corte = [];
+    $cortissime = [];
+
+    foreach ($prodottiConvertito as $value) {
+        if ($value['tipo'] == 'lunga') {
+            array_push($lunghe, $value);
+        } elseif ($value['tipo'] == 'corta'){
+            array_push($corte, $value);
+        } elseif ($value['tipo'] == 'cortissima'){
+            array_push($cortissime, $value);
+        }
+    };
+
+    
+    return view('prodotti', compact('lunghe', 'corte', 'cortissime'));
 });

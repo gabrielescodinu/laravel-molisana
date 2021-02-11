@@ -61,14 +61,24 @@ main {
 
 .prodotti {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+  text-align: center;
 }
 
 .prodotti h1 {
-  width: 100%;
   margin-left: 20px;
   text-transform: uppercase;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.tipologia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .prodotto:hover {
