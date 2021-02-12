@@ -13,7 +13,7 @@
 
         <div class="content">
             <div class="title m-b-md">
-                <img src="{{ asset('../img/logo.png') }}" alt="">
+                <img src="{{asset('img/logo.png')}}" alt="">
             </div>
             <div class="link-container">
                 <div class="links">
