@@ -1,4 +1,6 @@
-@include('head')
+@extends('layouts.app')
+
+@section('content')
 <main>
     <div class="prodotti">
         <h1>Lunghe</h1>
@@ -34,5 +36,4 @@
       
     </div>
 </main>
-    </body>
-</html>
+@endsection

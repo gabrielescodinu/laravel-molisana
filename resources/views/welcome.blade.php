@@ -1,3 +1,5 @@
-@include('head')
-    </body>
-</html>
+@extends('layouts.app')
+
+@section('content')
+
+@endsection

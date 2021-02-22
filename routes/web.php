@@ -160,6 +160,5 @@ Route::get('/prodotti', function () {
         }
     };
 
-    
     return view('prodotti', compact('lunghe', 'corte', 'cortissime'));
 });
